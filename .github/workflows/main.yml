@@ -27,3 +27,4 @@ jobs:
       build-command: npm ci && npm run pack
       publish-path: dist/@crucible-common/cmusei-crucible-common-{version}.tgz
       auth-mode: trusted
+      dry-run: true
